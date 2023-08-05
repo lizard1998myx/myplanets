@@ -2,9 +2,10 @@
 行星轨道运动&N体模拟模型
 天球画图、动画工具
 
-# 环境配置
-## 安装anaconda或VS Code并配置Jupyter Notebook
-## 安装必要的库
+# Python运行环境
+* 安装anaconda或VS Code并配置Jupyter Notebook
+
+# 安装必要的库
 * 科学计算：numpy、scipy
 * 画图：matplotlib
 * 天文计算：astropy
