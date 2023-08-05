@@ -1,0 +1,336 @@
+UMi – Ursa Minor
+Alpha – delta – epsilon – zeta – beta – gamma – eta – zeta
+
+UMa – Ursa Major
+Eta – zeta (SAO 28737) – epsilon – delta – alpha – beta – gamma – delta
+Gamma – chi – psi – lambda
+Psi – mu
+Alpha – h (SAO 14908) – omicron – upsilon – phi – theta – iota
+Theta – kappa
+Beta – phi
+
+Dra - Draco
+Lambda – kappa – alpha – iota – theta – eta – zeta – chi – tau – epsilon – delta – xi – nu2 (SAO 30450) – beta – gamma – xi
+
+Cep - Cepheus
+Gamma – iota – zeta – alpha – beta – gamma
+Beta – iota
+
+Cas - Cassiopeia
+Epsilon – delta – gamma – alpha – beta
+
+Cam - Camelopardalis
+Alpha – CS (SAO 24054) – gamma – alpha
+Gamma – SAO 5496
+
+Cyg - Cygnus
+Beta1 (SAO 87301) – phi – eta – gamma – alpha
+Mu1 (SAO 89940) – zeta – epsilon – gamma – delta – iota2 – kappa
+
+Lyr - Lyra
+Alpha – zeta1 (SAO 67321) – delta2 (SAO 67559) – gamma – beta – zeta1 (SAO 67321)
+
+Her - Hercules
+Iota – theta – rho (SAO 66001) – e (SAO 65921) – pi – eta – sigma – tau – phi – chi
+Omicron – xi – mu – lambda – delta
+Lambda – epsilon – zeta – beta – gamma
+Pi – epsilon
+Eta – zeta
+
+CrB – Corona Borealis
+Iota – epsilon – delta – gamma – alpha – beta – theta
+
+Boo - Bootes
+Zeta (SAO 101145) – alpha – epsilon (SAO 83500) – delta – beta – gamma – rho – alpha – eta – upsilon
+
+CVn – Canes Venatici
+Alpha2 (SAO 63257) – beta
+
+Com – Coma Berenices
+Alpha (SAO 100443) – beta – gamma
+
+LMi – Leo Minor
+10 (SAO 61570) – 21 (SAO 61874) – beta – 46 (SAO 62297) – 21 (SAO 61874)
+
+Leo - Leo
+Epsilon – mu – zeta – gamma1 (SAO 81298) – eta – alpha – theta – beta – delta – gamma1 (SAO 81298)
+Delta – theta
+
+Lyn - Lynx
+Alpha – 38 (SAO 61391) – SAO 61254 – 10 (SAO 42642) – 31 (SAO 42319) – 21 (SAO 41764) – 15 (SAO 26051) – 2 (SAO 25665)
+
+Cnc - Cancer
+Iota (SAO 80416) – gamma – delta – alpha
+Delta – beta
+Gamma – chi (SAO 80104)
+
+Gem - Gemini
+Beta – upsilon – delta – lambda – xi
+Delta – zeta – gamma
+Kappa – upsilon – tau – theta
+Alpha (SAO 60198) – tau – epsilon – nu
+epsilon – mu
+
+Aur - Auriga
+Theta – beta – alpha – zeta – iota
+(Iota Aur – beta Tau – theta Aur)
+
+Per - Perseus
+Zeta – xi – epsilon – delta – alpha – gamma – eta
+Alpha – beta – rho – 16 (SAO 55928)
+
+Tri - Triangulum
+Beta – alpha – delta
+
+And - Andromeda
+Gamma1 (SAO 37734) – beta – delta – alpha
+Beta – mu – nu
+
+Lac - Lacerta
+1 (SAO 72191) – 6 (SAO 52079) – 5 (SAO 52055) – alpha – beta – 4 (SAO 51970) – 5 (SAO 52055)
+
+Peg - Pegasus
+Pi (SAO 72077) – eta – beta – mu – lambda – iota – kappa
+Beta – alpha – gamma
+Alpha – xi – zeta – theta – epsilon
+(Beta Peg – alpha And – gamma Peg)
+
+Equ - Equuleus
+Alpha – gamma – delta – beta – alpha
+
+Del - Delphinus
+Epsilon – beta – alpha – gamma2 (SAO 106476) – delta (SAO 106425) – beta
+
+Vul - Vulpecula
+Alpha – 15 (SAO 88071)
+
+Sge - Sagitta
+Eta – gamma – delta – alpha
+Delta – beta
+
+Aql - Aquila
+Lambda – delta – alpha
+Gamma – alpha – beta
+Theta – eta – delta – zeta – epsilon
+
+Ser - Serpens
+Theta1 (SAO 124068) – eta – omicron – xi – nu
+Mu – epsilon – alpha – delta (SAO 101624) – beta – kappa – gamma – beta
+
+Oph - Ophiuchus
+Eta – beta – alpha – kappa – epsilon – zeta – eta – c (SAO 185470)
+
+Vir - Virgo
+Epsilon – delta – zeta – tau – 109 (SAO 120648)
+Nu – eta – gamma (SAO 138917) – alpha – kappa – iota – mu
+Alpha – zeta
+Gamma (SAO 138917) – delta
+
+Sex - Sextans
+Alpha – beta
+
+Hya - Hydra
+Gamma – psi – beta – xi – nu – mu – lambda – upsilon1 (SAO 155542) – alpha – tau1 (SAO 136895) – tau2 (SAO 136932) – theta – zeta – rho – epsilon – delta – sigma – eta – rho
+
+CMi – Canis Minor
+Alpha – beta
+
+Mon - Monoceros
+Alpha – zeta – delta – epsilon (SAO 113810) – SAO 113507
+Delta – beta (SAO 133316) – gamma
+
+Ori - Orion
+Pi1 (SAO 94201) – pi2 (SAO 112124) – pi3 (SAO 112106) – pi4 (SAO 112142) – 5 (SAO 112179) – pi6 (SAO 112281)
+Pi3 (SAO 112106) – gamma – lambda (SAO 112921) – alpha – zeta (SAO 132444) – kappa – beta – delta (SAO 132220) – gamma
+Zeta (SAO 132444) – epsilon – delta (SAO 132220)
+Alpha – mu – nu – chi1 (SAO 77705) – chi2 (SAO 77911) – f1 (SAO 95365) – xi – mu
+Xi – nu
+
+Tau - Taurus
+Zeta – alpha – theta2 (SAO 93957) – gamma – lambda – omicron
+Gamma – delta1 (SAO 93897) – delta3 (SAO 93923) – epsilon – tau (SAO 76721) – beta
+Alpha – epsilon
+Delta1 – 27 (SAO 76228)
+
+Ari - Aries
+41 (SAO 75596) – alpha – beta – gamma1 (SAO 92681)
+
+Psc - Pisces
+Phi – upsilon – sigma – phi – eta – omicron – alpha (SAO 110291) – xi – nu – mu – epsilon – delta – d (SAO 109152) – omega – iota – theta – gamma – kappa – lambda – iota
+
+Aqr - Aquarius
+Epsilon – beta – alpha – gamma – zeta1 (SAO 146108) – eta – lambda – psi1 (SAO 146598) – b1 (SAO 191858)
+C2 (SAO 191683) – delta – tau (SAO 165321) – sigma – theta – iota
+Theta – alpha
+
+Cap - Capricornus
+Delta – gamma – iota – theta – beta
+Omega – theta – zeta – iota
+Psi – beta – alpha1 (SAO 163422)
+
+Sct - Scutum
+Gamma – alpha – beta – SAO 161964 – gamma
+
+Sgr - Sagittarius
+Mu – lambda – delta – gamma (SAO 209696) – 2 (SAO 185755)
+Rho1 (SAO 162512) – d (SAO 162413) – omicron – xi2 (SAO 187504) – sigma – phi – lambda
+Phi – delta – epsilon – eta
+Epsilon – gamma (SAO 209696)
+Epsilon – zeta – phi
+Zeta – tau – sigma
+Tau – h1 (SAO 188326) – c (SAO 188844) – iota – alpha
+Iota – beta2 (SAO 229654)
+
+CrA – Corona Austrina
+SAO 210277 – lambda – epsilon – gamma (SAO 210928) – alpha – beta – delta – zeta – SAO 229383
+
+Sco - Scorpius
+Lambda – kappa – iota1 (SAO 228420) – theta – eta – zeta1 (SAO 227375) – mu1 (SAO 208102) – epsilon – tau – alpha – beta1 (SAO 159682)
+Alpha – delta
+Alpha – pi
+
+Lib – Libra
+Theta – gamma – beta – alpha2 (SAO 158840) – sigma – gamma
+
+Crv - Corvus
+Alpha – epsilon – gamma – delta – beta – epsilon
+
+Crt - Crater
+Delta – alpha – beta – gamma – zeta – eta – theta – epsilon – delta – gamma
+
+Ant - Antlia
+Alpha – eta
+
+Pyx - Pyxis
+Gamma – alpha – beta
+
+CMa – Canis Major
+Iota – theta – gamma – iota – alpha – nu2 (SAO 151702) – beta
+Xi2 (SAO 171982) – nu2 (SAO 151702) – omicron1 (SAO 172542) – sigma – epsilon – zeta
+Epsilon – kappa
+Eta – omega – delta – sigma
+Delta – omicron2 (SAO 172839) – alpha
+
+Lep - Lepus
+Theta – eta – zeta – alpha – delta – gamma – beta – epsilon – mu – kappa – iota
+Nu – lambda – mu – alpha – beta
+
+Eri - Eridanus
+I (SAO 149781) – lambda – beta – omega – mu – nu – delta – epsilon – zeta – eta – tau1 (SAO 148584) – tau3 (SAO 168249) – tau4 (SAO 168460) – tau5 (SAO 168634) – tau6 (SAO 168827) – upsilon2 (SAO 195148) – upsilon3 (SAO 194984) – upsilon4 (SAO 194902) – g (SAO 194559) – SAO 194551 – e (SAO 216263) – theta1 (SAO 216113) – iota – s (SAO 215996) – kappa – phi – chi – alpha
+
+For - Fornax
+Alpha – beta
+
+Cet - Cetus
+Iota – beta – tau – sigma – pi – epsilon – omicron – delta – gamma – alpha – lambda – mu – xi2 (SAO 110543) – gamma
+Epsilon – rho – zeta – theta – eta – beta
+Xi2 (SAO 110543) – xi2 (SAO 110408)
+
+Scl - Sculptor
+Alpha – beta – gamma – alpha
+
+PsA – Piscis Austrinus
+Alpha – epsilon – eta – theta – tau – beta – delta
+
+Mic - Microscopium
+Epsilon – gamma – alpha
+
+Phe - Phoenix
+Beta – psi – delta – beta – kappa – alpha – epsilon – kappa – gamma – beta – zeta – kappa
+
+Gru - Grus
+Zeta – beta – iota – theta – delta1 (SAO 231154) – alpha – beta – epsilon
+Alpha – lambda – gamma
+
+Ind - Indus
+Alpha – beta – theta – alpha
+
+Tel - Telescopium
+Zeta – alpha
+
+Ara - Ara
+Alpha – zeta – eta – delta – gamma – beta – theta – alpha
+
+Nor - Norma
+Kappa – gamma2 (SAO 243643) – epsilon – eta – kappa
+
+Lup - Lupus
+Eta – chi – theta – eta – gamma – omega – zeta – rho
+Zeta – alpha – tau2 (SAO 224920)
+Alpha – beta – delta – phi1 (SAO 206552)
+Delta – gamma
+
+Cen - Centaurus
+Theta – nu – mu – eta – kappa
+Iota – d (SAO 204545) – nu – mu – upsilon1 (SAO 224585) – zeta – epsilon – beta – alpha1 (SAO 252838)
+Zeta – gamma – sigma – delta – A (SAO 239189) – lambda
+
+Cru - Crux
+Alpha1 (SAO 251904) – gamma (SAO 240019)
+Beta – delta
+
+Vel - Vela
+Gamma (SAO 219504) – omicron (SAO 236164) – delta – kappa – phi – mu – p (SAO 222199) – q (SAO 221895) – psi – lambda – gamma (SAO 219504)
+
+Pup - Puppis
+Zeta – rho – xi – pi – nu – tau – sigma – zeta
+(Zeta Pup – epsilon Car)
+(Nu Pup - alpha Car)
+
+Car - Carina
+Alpha – epsilon – d (SAO 236181) – a (SAO 236693) – iota – q (SAO 250905) – s (SAO 238085) – chi (SAO 238813) – w (SAO 251090) – theta – omega – beta
+
+Vol - Volans
+Delta – epsilon – alpha – beta – epsilon – zeta – gamma2 (SAO 256374) – epsilon
+
+Pic - Pictor
+Alpha – gamma – beta
+
+Col - Columba
+Delta – kappa – gamma – beta – eta
+Beta – alpha – epsilon
+
+Cae - Caelum
+Delta – alpha – beta
+
+Dor - Dorado
+Gamma – alpha – beta – delta – SAO 249390 – beta
+
+Ret - Reticulum
+Alpha – beta – delta – epsilon – alpha
+
+Hor - Horologium
+Alpha – zeta – mu
+
+Men - Mensa
+Gamma – mu
+
+Hyi - Hydrus
+Alpha – delta – epsilon – gamma – beta
+
+Tuc - Tucana
+Alpha – gamma – beta2 (SAO 248202)
+Gamma – zeta
+
+Pav - Pavo
+Delta – alpha – gamma – beta – delta – kappa – zeta – epsilon – delta
+Kappa – lambda – xi – pi – eta
+Pi – lambda
+
+TrA – Triangulum Australe
+Alpha – beta – gamma – alpha
+
+Cir - Circinus
+Beta – alpha – gamma
+
+Mus - Musca
+Gamma – alpha – beta – mu – gamma
+
+Aps - Apus
+Alpha – gamma – beta
+
+Cha - Chamaeleon
+Beta – gamma – alpha
+
+Oct - Octans
+Beta – delta – nu – beta
