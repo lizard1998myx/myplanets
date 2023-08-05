@@ -1,6 +1,7 @@
 # myplanets
-行星轨道运动&N体模拟模型
-天球画图、动画工具
+* 行星轨道运动&N体模拟模型
+* 天球画图、动画工具
+* 用于2023年8月初北京延庆天文计算营
 
 # Python运行环境
 * 安装anaconda或VS Code并配置Jupyter Notebook
