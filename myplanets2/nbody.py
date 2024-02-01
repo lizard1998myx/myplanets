@@ -6,14 +6,66 @@ from typing import List
 import datetime
 from .models import BaseModel, _convert_time
 
+import pytz
+from astropy.coordinates import get_body_barycentric_posvel
+from astropy import units as u
+from astropy.time import Time
 
-# to add get precise value
+
+# to get x&v from astropy ephemeris
+def get_model_real(name, m, time_initial, ephemeris=None):
+    t = _convert_time(time_initial).astimezone(pytz.timezone('Asia/Shanghai'))  # utc
+    t = Time(t, format='datetime', scale='utc')
+
+    x, v = get_body_barycentric_posvel(name, t, ephemeris=ephemeris)
+    x, v = x.get_xyz().value, v.get_xyz().to(u.AU/u.yr).value
+
+    return NbodyModel(m=m, xyz=x.tolist(), v_xyz=v.tolist(), time_initial=time_initial)
+
+
+# calculate to get list of models
+def get_models(mlist, xlist, vlist, time_initial):
+    # mlist in shape (n)
+    # xlist & vlist in shape (n, 3)
+    assert len(mlist) == len(xlist), 'list not match'
+    assert len(mlist) == len(vlist), 'list not match'
+
+    obj_list = []
+    for m, x, v in zip(mlist, xlist, vlist):
+        obj_list.append(NbodyModel(m=m, xyz=x, v_xyz=v, time_initial=time_initial))
+    return obj_list
+
+
+def center_models(model_list):
+    mlist = []
+    xlist = []
+    vlist = []
+
+    for model in model_list:
+        mlist.append(model.m)
+        xlist.append(model.pos)
+        vlist.append(model.vel)
+
+    mlist = np.array(mlist)  # shape (n)
+    xlist = np.array(xlist)  # shape (n, 3)
+    vlist = np.array(vlist)  # shape (n, 3)
+
+    # one more step for changing center of mass & velocity frame
+    m_arr = np.vstack([mlist] * 3).T  # shape (n, 3D)
+    m_tot = np.sum(mlist)
+    xlist -= np.sum(m_arr * xlist, axis=0) / m_tot
+    vlist -= np.sum(m_arr * vlist, axis=0) / m_tot
+
+    for i, model in enumerate(model_list):
+        model.pos = xlist[i]
+        model.vel = vlist[i]
+
 
 class NbodyModel(BaseModel):
     def __init__(self, m, xyz, v_xyz, time_initial=None):
         self.m = m  # in solar mass
-        self.pos = np.array(xyz)  # AU, shape 3
-        self.vel = np.array(v_xyz)  # AU/yr, earth value = 2pi, shape 3
+        self.pos = np.array(xyz, dtype=float)  # AU, shape 3
+        self.vel = np.array(v_xyz, dtype=float)  # AU/yr, earth value = 2pi, shape 3
         if time_initial is None:
             self.time_initial = datetime.datetime(year=2022, month=3, day=21)
         else:

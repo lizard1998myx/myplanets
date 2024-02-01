@@ -8,11 +8,13 @@ from .skymap import SkyMap
 from .catalog import StarCatalog
 from .models import (StaticModel, CircularModel, EllipticalModel, PointsModel,
                      PreciseModel, cal_radec, cal_period, time_sequence)
-from .nbody import NbodyModel, NbodyCal
+from .nbody import NbodyModel, NbodyCal, get_model_real, get_models, center_models
 
 # easier to read
 from .pinyin import (jisuan_radec, jisuan_zhouqi, shijian_xulie,
                      JingzhiMoxing, YuanMoxing, TuoyuanMoxing,
                      DianMoxing, JingqueMoxing,
                      YinliMoxing, YinliJisuan,
+                     zhenshi_moxing, moxing_xulie, xiuzheng_yuandian,
                      Tiantu, Xingbiao)
+

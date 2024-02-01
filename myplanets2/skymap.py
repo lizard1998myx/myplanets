@@ -263,6 +263,7 @@ class SkyMapBase:
             skip = int(n // n_frame_total)
 
         # manual check
+        # ~10 times generation time
         if not inf_length:
             assert length_seconds < 2*60, 'video length too long! 20min+ generation time'
 

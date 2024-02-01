@@ -424,11 +424,12 @@ def filter_con_id(full_con_id, con_names, include_list=None, exclude_list=None):
 def get_cartesian(ra, dec, distance):
     return [distance * np.cos(ra) * np.cos(dec),
             distance * np.sin(ra) * np.cos(dec),
-            distance * np.sin(dec)]
+            distance * np.sin(dec)]  # shape (3, n)
 
 
 # XYZ to ra, dec, distance (deg, deg, parsec)
 def get_spherical_deg(x, y, z):
+
     ra = np.zeros(len(x))
     ra[x != 0] = np.arctan(y[x != 0] / x[x != 0]) * 180 / np.pi
     ra[x < 0] += 180
@@ -446,9 +447,9 @@ def combine_travel(ra_deg_list, dec_deg_list, travel_ly_list):
     xyz_list = get_cartesian(np.array(ra_deg_list) * np.pi / 180,
                              np.array(dec_deg_list) * np.pi / 180,
                              np.array(travel_ly_list))
-    x, y, z = np.sum(np.array(xyz_list), axis=0)
-    ra, dec, distance = get_spherical_deg(x, y, z)
-    return {'ra_deg': ra, 'dec_deg': dec, 'travel_ly': distance}
+    x, y, z = np.sum(np.array(xyz_list), axis=1)  # (3, n) -> (3)
+    ra, dec, distance = get_spherical_deg(np.array([x]), np.array([y]), np.array([z]))
+    return {'ra_deg': ra[0], 'dec_deg': dec[0], 'travel_ly': distance[0]}
 
 
 def move_cat_df(cat_df, time_year=0, ra_deg=0, dec_deg=0, travel_ly=0,
@@ -531,6 +532,10 @@ def move_cat_df(cat_df, time_year=0, ra_deg=0, dec_deg=0, travel_ly=0,
                'Vmag': 4.8 + 5 * np.log10(travel_ly / (3.261563777 * 10)),
                'B-V': 0.656}
 
-        result_df.append(sun, ignore_index=True)
+        # result_df.append(sun, ignore_index=True)  # deprecated in new version of pandas
+        result_df = pd.concat([result_df, pd.DataFrame([sun])], ignore_index=True)
+        # res = result_df.to_dict('records')
+        # res.append(sun)
+        # result_df = pd.DataFrame(res)
 
     return result_df

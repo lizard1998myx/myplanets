@@ -62,6 +62,7 @@ class StarCatalog:
             ra = combined['ra_deg']
             dec = combined['dec_deg']
             travel_ly = combined['travel_ly']
+            # print(combined)
 
         moved_df = move_cat_df(self.df, time_year=time_year,
                                ra_deg=ra, dec_deg=dec, travel_ly=travel_ly,
@@ -77,6 +78,9 @@ class StarCatalog:
         self.travel_ra = []
         self.travel_dec = []
         self.travel_ly = []
+
+    def cons_reset(self):
+        self.fil_con_list = None
 
     def get_stars(self):
         if self.moved_df is None:

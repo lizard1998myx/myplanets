@@ -15,6 +15,9 @@ from .models import PreciseModel as JingqueMoxing
 
 from .nbody import NbodyModel as YinliMoxing
 from .nbody import NbodyCal as YinliJisuan
+from .nbody import get_model_real as zhenshi_moxing
+from .nbody import get_models as moxing_xulie
+from .nbody import center_models as xiuzheng_yuandian
 
 
 class YuanMoxing(CircularModel):
@@ -36,27 +39,27 @@ class Tiantu(SkyMap):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-    def hua_xingzuo(self, **kwargs):
-        self.plot_constellation_easy(**kwargs)
+    def hua_xingzuo(self, *args, **kwargs):
+        self.plot_constellation_easy(*args, **kwargs)
 
-    def hua_xingxing(self, **kwargs):
-        self.plot_stars_easy(**kwargs)
+    def hua_xingxing(self, *args, **kwargs):
+        self.plot_stars_easy(*args, **kwargs)
 
-    def hua_moxing(self, **kwargs):
-        self.plot_model_easy(**kwargs)
+    def hua_moxing(self, *args, **kwargs):
+        self.plot_model_easy(*args, **kwargs)
 
-    def donghua_moxing(self, **kwargs):
-        self.animate_model_easy(**kwargs)
+    def donghua_moxing(self, *args, **kwargs):
+        self.animate_model_easy(*args, **kwargs)
 
-    def donghua_shijian(self, **kwargs):
-        self.animate_text(**kwargs)
+    def donghua_shijian(self, *args, **kwargs):
+        self.animate_text(*args, **kwargs)
 
-    def hua_tuli(self, **kwargs):
-        self.legend(**kwargs)
+    def hua_tuli(self, *args, **kwargs):
+        self.legend(*args, **kwargs)
 
     def hua(self):
         self.show()
 
-    def donghua(self, **kwargs):
-        self.animation_easy(**kwargs)
+    def donghua(self, *args, **kwargs):
+        self.animation_easy(*args, **kwargs)
 
