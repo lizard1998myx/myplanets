@@ -12,9 +12,11 @@
 * 画图：matplotlib
 * 天文计算：astropy
 * 数据处理：pandas
+* 进度条：tqdm
 
 # 运行前准备
 * 新建目录
 * 在目录下新建ipynb文件或将现有ipynb文件放入目录
 * 将myplanets2文件夹放入目录
 * 用anaconda或VS Code打开ipynb文件并运行
+* 安装ffmpeg以使用动画模块（可选）
